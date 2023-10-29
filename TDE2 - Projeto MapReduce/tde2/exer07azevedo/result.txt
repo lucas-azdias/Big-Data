@@ -1,0 +1,4 @@
+Export	Iron ore, concentrate, not iron pyrites,unagglomerate	1343444789618
+Import	Iron ore, concentrate, not iron pyrites,unagglomerate	1362436716054
+Re-Export	Oils petroleum, bituminous, distillates, except crude	1452933784
+Re-Import	Chem wood pulp, soda/sulphate, non-conifer, bleached	38774873

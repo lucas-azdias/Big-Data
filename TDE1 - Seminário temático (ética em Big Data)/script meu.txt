@@ -1,0 +1,49 @@
+externalidade
+	é relacionada a origem das informaçôes e dos dados
+
+	origens -> advém de individuos e outras companhias de fora
+
+	dados da contabilidade geralmente advém internamente (inclui 
+	dados que não necessariamente colaboram para os usos corporativos)
+	
+	consequencias
+	|-> isso desassocia o contexto da sua criação do próprio dado
+	|-> falta de propriedade e controle sobre os dados gerados 
+	    (gera preocupações quanto a privacidade, estabilidade
+	    e escalabilidade),
+	    assim, por mais que seja gerado democraticamente, sua verdadeira
+	    posse fica em maos que poucos (quase uma oligarquia)
+
+	MITIGAÇÃO -> tentar usar o máximo de origens possíveis
+
+
+abdutividade
+	é relacionada a mudança no processo de tomada de decisão causada pela disponibilidade dos dados.
+	
+	tradicionalmente, as informações coletadas para a tomada de decisões em companhias seguiam o pensamento dedutivo
+	(com base no que penso, interpretava os dados)
+	
+	contudo, em big data é guiada pelo pensamento indutivo (os dados te levam a uma interpretação). Porém,
+	nesse processo de entender, a questão inicial é refinada e gera um feedback -> leva ao pensamento abdutivo 	(híbrido entre dedutivo e indutivo)
+
+	assim, os dados ficam muito fluidos e nasce um ciclo de feedback entre os dados e as questões levantadas
+
+	consequencias
+	|-> isso leva a uma falta de estabilidade de regras e estruturas antes padronizadas
+	    (não ter um padrão para interpretar os dados).
+	
+	MITIGAÇÃO -> não enrigecer regras e estruturas demasiadamente (deixar um espaço para fluidez)
+
+
+inesgotabilidade
+	é relacionada a representatividade das informações e dos dados
+
+	big data presume que os dados objetivados serão todos e não uma seleção de amostras
+	
+	contudo, há duvida em relação a representatividade dos dados em relação a toda população,
+	visto que não há garantias que os dados vindos de terceiros são os de toda a população ou apenas uma parte dela.
+
+	consequencias
+	|-> leva a duvida quanto a representatividade dos dados quanto a população toda
+	
+	MITIGAÇÂO -> buscar diversas origens com diferentes formas de coleta dos dados para minimizar esse risco
