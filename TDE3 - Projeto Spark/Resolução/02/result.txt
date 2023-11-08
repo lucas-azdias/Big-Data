@@ -1,0 +1,5 @@
+[('Centro-Oeste', 11659),
+ ('Nordeste', 79039),
+ ('Norte', 26095),
+ ('Sudeste', 75329),
+ ('Sul', 29018)]
