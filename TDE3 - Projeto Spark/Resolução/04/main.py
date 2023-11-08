@@ -11,9 +11,8 @@ sc = spark.sparkContext
 rdd = sc.textFile("censo_escolar_2021.csv").map(
     lambda x: x.split(";")).filter(lambda x: x[0] != "NU_ANO_CENSO")
 
-empty_to_zero = lambda x: x if x != "" else 0
-
-rdd_mat = rdd.map(lambda x: (x[1], (int(empty_to_zero(x[311])), 1)))
+rdd_mat = rdd.filter(lambda x: x[305] != "")
+rdd_mat = rdd_mat.map(lambda x: (x[1], (int(x[305]), 1)))
 rdd_mat = rdd_mat.reduceByKey(lambda x, y: (x[0] + y[0], x[1] + y[1]))
 rdd_mat = rdd_mat.mapValues(lambda x: x[0] / x[1])
 rdd_mat = rdd_mat.sortByKey()
